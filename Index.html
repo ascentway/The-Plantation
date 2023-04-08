@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plant Store</title>
+</head>
+<body>
+  <header>
+    <h1>Plant Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#cart">Cart</a></li>
+        <li><a href="#account">Account</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Welcome to Plant Store</h2>
+      <p>At Plant Store, we offer a wide selection of high-quality plants for your home and garden. Browse our online shop to find the perfect plants for your needs.</p>
+    </section>
+    <section id="shop">
+      <h2>Shop Our Plants</h2>
+      <ul>
+        <li data-product-id="1">
+          <img src="path/to/plant-1.jpg" alt="Plant 1">
+          <h3>Plant 1</h3>
+          <p>$10.99</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </li>
+        <li data-product-id="2">
+          <img src="path/to/plant-2.jpg" alt="Plant 2">
+          <h3>Plant 2</h3>
+          <p>$12.99</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </li>
+        <!-- Add more plant listings as needed -->
+      </ul>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Plant Store has been providing high-quality plants to customers for over 20 years. Our experienced staff can help you choose the perfect plants for your home or garden.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <section id="cart">
+      <h2>Cart</h2>
+      <ul id="cart-items">
+        <!-- Cart items will be added here using JavaScript -->
+      </ul>
+      <p>Total: <span id="cart-total">$0.00</span></p>
+      <button id="checkout">Checkout</button>
+    </section>
+    <section id="account">
+      <h2>Account</h2>
+      <form id="login-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
